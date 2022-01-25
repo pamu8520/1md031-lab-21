@@ -1,1 +1,125 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>PickyBurger</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to PickyBurger</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Pick your Burger</h3>
+        </section>
+        <section>
+            <p>This is the menu</p>
+        </section>
+        <div style="display: inline-block">
+                <h4>
+                    Pickle Burger
+                </h4>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Pickle burger" style="width: 200px; ">
+                </figure>
+                <ul>
+                    <li>200 grams ground beef</li>
+                    <li>Gluten free bread</li>
+                    <li>Pickles</li>
+                    <li>Sallad</li>
+                    <li>Tomatoes</li>
+                </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4>
+                    Your Burger
+                </h4>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Pickle burger" style="width: 200px; ">
+                </figure>
+                <ul>
+                    <li>200 grams ground beef</li>
+                    <li>Brioche bread (contains gluten)</li>
+                    <li>Pickles</li>
+                    <li>Sallad</li>
+                    <li>Tomatoes</li>
+                </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4>
+                    My Burger
+                </h4>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Pickle burger" style="width: 200px; ">
+                </figure>
+                <ul>
+                    <li>200 grams ground beef</li>
+                    <li>Gluten free bread</li>
+                    <li>Pickles</li>
+                    <li>Sallad</li>
+                    <li>Tomatoes</li>
+                </ul>
+            </div>
+    </main>
+    <section id="contact">
+        <form>
+            <fieldset>
+                <h3>Customer Information</h3>
+                <p>Please provide your contact information for delivery.</p>
+                <h4>Delivery information:</h4>
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id=fullname" name="fn" required="required" placeholder="First- and Last name" autocomplete="on">
+                </p>
+                <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address" autocomplete="on">
+                </p>
+                <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="street" name="street" required="required" placeholder="Street" autocomplete="on"> 
+                </p>
+                <p>
+                    <label for="house">House number</label><br>
+                    <input type="number" id="house" name="house" required="required" placeholder="House number"> 
+                </p>
+                <p> 
+                    <label for="recipients">Recipients</label><br>
+                    <select id="recipients" name="rcp">
+                        <option select="selected">Swish</option>
+                        <option>Credit Card</option>
+                        <option>Voucher</option>
+                    </select>
+                </p>
+                <p> 
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+                    <input type="radio" id="notprovided" name="gender" value="notprovided">
+                    <label for="notprovided">Do not wish to provide</label><br>
+                </p>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+    <button type="submit"> 
+        <img src="https://cdn.pixabay.com/photo/2012/04/01/16/39/chefs-hat-23436_960_720.png" style="width: 20px;">
+        Place my order
+    </button>
+    <hr>
+    <footer>
+        &copy; 2022 PickyBurger
+    </footer>
+    </hr>
+</body>
+
+</html>
