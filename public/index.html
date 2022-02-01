@@ -3,68 +3,72 @@
 
 <head>
     <title>PickyBurger</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to PickyBurger</h1>
+    <header class="headline">
+        <h1 id="head_title">Welcome to <span id="title"> Picky</span>Burger</h1>
+        <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        alt="headline" >
     </header>
+
     <main>
-        <section>
+        <section id="burgerinfo">
             <h3>Pick your Burger</h3>
-        </section>
-        <section>
             <p>This is the menu</p>
-        </section>
-        <div style="display: inline-block">
+        <div class="wrapper">
+        <div class="box a">
                 <h4>
                     Pickle Burger
                 </h4>
-                <figure>
                     <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         alt="Pickle burger" style="width: 200px; ">
-                </figure>
                 <ul>
                     <li>200 grams ground beef</li>
-                    <li>Gluten free bread</li>
+                    <section class="allergies">
+                    <li>Contains <span id="gluten1">gluten</span></li>
+                    </section>
                     <li>Pickles</li>
                     <li>Sallad</li>
                     <li>Tomatoes</li>
                 </ul>
             </div>
-            <div style="display: inline-block">
+            <div class="box b">
                 <h4>
                     Your Burger
                 </h4>
-                <figure>
                     <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                        alt="Pickle burger" style="width: 200px; ">
-                </figure>
+                        alt="Your burger" style="width: 200px; ">
                 <ul>
                     <li>200 grams ground beef</li>
-                    <li>Brioche bread (contains gluten)</li>
+                    <section class="allergies">
+                    <li>Brioche bread (contains <span id="gluten2">gluten)</span></li>
+                   </section>
                     <li>Pickles</li>
                     <li>Sallad</li>
                     <li>Tomatoes</li>
                 </ul>
             </div>
-            <div style="display: inline-block">
+            <div class="box c">
                 <h4>
                     My Burger
                 </h4>
-                <figure>
                     <img src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                        alt="Pickle burger" style="width: 200px; ">
-                </figure>
+                        alt="My burger" style="width: 200px; ">
                 <ul>
                     <li>200 grams ground beef</li>
-                    <li>Gluten free bread</li>
+                    <section class="allergies">
+                    <li>Bread (contains <span id="gluten3">gluten)</span></li>
+                </section>
                     <li>Pickles</li>
                     <li>Sallad</li>
                     <li>Tomatoes</li>
                 </ul>
             </div>
+            </div>
+        </section>
     </main>
     <section id="contact">
         <form>
